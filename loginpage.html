@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caution</title>
+  <link rel="icon" href="images/logo.PNG">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/loginpage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- header begins -->
+  <header>
+    <h2 class="logo">
+      <em>CAUTION</em>
+    </h2>
+    <ul>
+      <li><a href="#signup">SIGN UP</a></li>
+    </ul>
+  </header>
+  <!-- header ends -->
+
+  <section></section>
+
+  <!-- main content holder starts-->
+  <main>
+    <div class = "login-holder">
+      <h2 class ="login__title">Welcome Back!</h2>
+      <form id="login-form">
+        <div class="email__holder">
+          <label for="email" class="label--basic">Email</label><br>
+          <input type="text" name="email" id="email" class="input--basic email__input ">
+          <p class = "incorrect--message" id="email-incorrect-message"><i class="fa fa-exclamation" id = "exp1"></i></p>
+        </div>
+        <div class="password__holder">
+          <label for="psd" class="label--basic">Password</label><br>
+          <input type="password" name="psd" id="password" class="input--basic password__input ">
+          <p class="incorrect--message" id = "password-incorrect-message"><i class="fa fa-exclamation" id = "exp2"></i></p>
+        </div>
+        <div class="submit__button">
+          <input type="submit" value = "LOGIN" class="input--basic submit__input">
+        </div>
+      </form>
+    </div>
+  </main>
+  <!-- main content holder ends -->
+  <section></section>
+  <footer>
+    <div>
+      <p class="creators__inline">[CREATED BY DHAR]</p>
+    </div>
+    <div> 
+      <a href="https://github.com/dharshini012"><i class="fa fa-github fa-2x" style="background-color: black;"></i></a>
+      <a href="https://twitter.com/Lemondust_"> <i class="fa fa-twitter fa-2x" style="background-color: #1da1f2;"></i></a>
+    </div>
+  </footer>
+  <script src="javascript/loginScript.js"></script>
+</body>
+</html>
